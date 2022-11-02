@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110vh;
+}
+
+.box {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* height: 100vh; */
+}
+
+.heading {
+  font-size: 50px;
+  padding: 20px 5px;
+  cursor: pointer;
+  transition: transform .5s cubic-bezier(1,-0.59,.09,1.68);
+}
+
+.pl {
+  color: plum;
+}
+
+.tran {
+  transform: translateY(-20px);
+  transition: transform .5s cubic-bezier(1, -0.59, .09, 1.68);
+
+}
