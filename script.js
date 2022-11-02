@@ -1,5 +1,5 @@
 const head = document.querySelector('.heading')
-const x = document.querySelector('.pl')
+// const x = document.querySelector('.pl')
 
 // for (let i = 0; i < head.length; i++) {
 //   head[i].addEventListener('click', () => {
@@ -11,9 +11,9 @@ const x = document.querySelector('.pl')
 //     head.classList.toggle('tran')
 //   })
 
-// head.onclick = () => {
-//   head.classList.toggle('tran')
-// }
+head.onclick = () => {
+  head.classList.toggle('tran')
+}
 
 // for (let i = 0; i < head.length; i++) {
 //   head[i].onclick = () => {
@@ -22,11 +22,11 @@ const x = document.querySelector('.pl')
 // }
 
 
-head.onclick = () => {
-  if (x.innerHTML === 'Hello,') {
-    x.innerHTML = 'Привет,'
-  } else {
-    x.innerHTML = 'Hello,'
-  }
-}
+// head.onclick = () => {
+//   if (x.innerHTML === 'Hello,') {
+//     x.innerHTML = 'Привет,'
+//   } else {
+//     x.innerHTML = 'Hello,'
+//   }
+// }
 
