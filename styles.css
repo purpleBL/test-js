@@ -24,8 +24,8 @@
   height: 50px;
   border-radius: 50%;
   border: none;
-  background-color: #000000;
-  transition: 2s border-radius cubic-bezier(0.175, 0.885, 0.32, 1);
+  background-color: #a2ff4c;
+  transition: .5s border-radius cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .menu-btn__line,
@@ -36,7 +36,7 @@
   width: 20px;
   height: 2px;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .menu-btn__line::before,
@@ -57,19 +57,17 @@
 }
 .menu-btn__active .menu-btn__line::before {
   transform: rotate(-45deg);
-  background-color: #000000;
   /* width: 10px; */
   /* transform-origin: -10px center; */
 }
 .menu-btn__active .menu-btn__line::after {
   transform: rotate(45deg);
-  background-color: #000000;
   /* width: 10px; */
   /* transform-origin: left top; */
 }
 
 .menu-btn__active {
-  background-color: rgb(162, 255, 76);
   border-radius: 10px;
+  background-color: #ff734c;
   /* width: 100px; */
 }
