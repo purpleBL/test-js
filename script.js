@@ -1,32 +1,6 @@
-const head = document.querySelector('.heading')
-// const x = document.querySelector('.pl')
+const menuBtn = document.querySelector(".menu-btn");
 
-// for (let i = 0; i < head.length; i++) {
-//   head[i].addEventListener('click', () => {
-//     head[i].classList.toggle('tran')
-//   })
-// }
-
-// head.addEventListener('click', () => {
-//     head.classList.toggle('tran')
-//   })
-
-head.onclick = () => {
-  head.classList.toggle('tran')
+menuBtn.onclick = () => {
+  menuBtn.classList.toggle("menu-btn__active");
 }
-
-// for (let i = 0; i < head.length; i++) {
-//   head[i].onclick = () => {
-//   head[i].classList.toggle('tran')
-//   }
-// }
-
-
-// head.onclick = () => {
-//   if (x.innerHTML === 'Hello,') {
-//     x.innerHTML = 'Привет,'
-//   } else {
-//     x.innerHTML = 'Hello,'
-//   }
-// }
 
