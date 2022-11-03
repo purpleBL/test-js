@@ -38,7 +38,7 @@
   width: 20px;
   height: 2px;
   border-radius: 5px;
-  background-color: #000000;
+  background-color: black;
 }
 
 .menu-btn__line::before,
@@ -76,6 +76,7 @@
 }
 
 .menu-btn__text {
+  color: black;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
