@@ -25,7 +25,7 @@
   border-radius: 50%;
   border: none;
   background-color: #000000;
-  transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 2s border-radius cubic-bezier(0.175, 0.885, 0.32, 1);
 }
 
 .menu-btn__line,
