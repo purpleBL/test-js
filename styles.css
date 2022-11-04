@@ -70,11 +70,11 @@
 }
 
 .menu-btn__active {
-  border-radius: 10px;
+  border-radius: 100px;
   width: 120px;
-  justify-content: flex-start;
-  padding-left: 15px;
-  background: #ff9974;
+  justify-content: flex-end;
+  padding-right: 15px;
+  transform: translateX(-35px);
 }
 
 .menu-btn__text {
@@ -84,7 +84,7 @@
   text-transform: uppercase;
   position: absolute;
   display: block;
-  right: 15px;
+  left: 15px;
   opacity: 0;
   user-select: none;
   -webkit-user-select: none;
