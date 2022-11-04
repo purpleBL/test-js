@@ -8,11 +8,10 @@
 
 .box {
   display: flex;
-  flex-direction: column;
-  gap: 50px;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  height: 75vh;
+  padding: 20px;
+  height: 80vh;
 }
 
 .menu-btn {
@@ -45,7 +44,7 @@
 .menu-btn__line::after {
   content: '';
   transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition-delay: .1s;
+  transition-delay: .0875s;
 }
 
 .menu-btn__line::before {
@@ -72,9 +71,9 @@
 .menu-btn__active {
   border-radius: 100px;
   width: 120px;
-  justify-content: flex-end;
-  padding-right: 15px;
-  transform: translateX(-35px);
+  justify-content: flex-start;
+  padding-left: 15px;
+  /* transform: translateX(-35px); */
 }
 
 .menu-btn__text {
@@ -84,7 +83,7 @@
   text-transform: uppercase;
   position: absolute;
   display: block;
-  left: 15px;
+  right: 15px;
   opacity: 0;
   user-select: none;
   -webkit-user-select: none;
