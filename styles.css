@@ -12,7 +12,7 @@
   gap: 50px;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 75vh;
 }
 
 .menu-btn {
@@ -45,6 +45,7 @@
 .menu-btn__line::after {
   content: '';
   transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-delay: .1s;
 }
 
 .menu-btn__line::before {
@@ -73,6 +74,7 @@
   width: 120px;
   justify-content: flex-start;
   padding-left: 15px;
+  background: #ff9974;
 }
 
 .menu-btn__text {
@@ -84,6 +86,10 @@
   display: block;
   right: 15px;
   opacity: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .menu-btn__active .menu-btn__text {
